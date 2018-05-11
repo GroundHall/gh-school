@@ -10,7 +10,7 @@ export const SchoolModel = Joi.object({
   country: Joi.string(),
   region: Joi.string(),
   town: Joi.string(),
-  hashtag_id: Joi.string()
+  hashtagId: Joi.string()
 }).required();
 
 export const SchoolModelRequired = Joi.object({
@@ -18,5 +18,5 @@ export const SchoolModelRequired = Joi.object({
   country: Joi.string().required(),
   region: Joi.string().required(),
   town: Joi.string().required(),
-  hashtag_id: Joi.string().required()
+  hashtagId: Joi.string().required()
 }).required();
